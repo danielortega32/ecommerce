@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;  
+   
+}
+body{
+  background-color: rgb(40, 40, 124);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e5e5ebbb;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: top 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px;
+  }
+  .row {
+    gap: 25px;
+  }
+  #menu-toggle {
+    display: block;
+  }
+
+  .navbar-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #f8f9fa;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-menu.active {
+    display: flex;
+  }
+
+  .navbar-menu li {
+    margin: 5px 0;
+  }
+  .nav-link{
+    margin-left: -250px;}
+  .main-main img {
+     margin-left: 0;
+   }
+}
+  .main-header{
+    margin-top: 50px;
+  }
+  #navbarNav{
+    margin-left: 300px;
+  }
+  .main-main .titulo{
+    color: #ffffff;
+    text-shadow: -5px 5px 10px #070707;
+    
+  }
+.main-main h1{
+      
+      color: #f8f9fa;
+      text-align: center;
+      margin-top: 110px;
+    }
+.navbar-toggler{
+    color: rgba(255,255,255,.55);
+    border-color: rgba(255,255,255,.1);
+   }
+.main-main p{
+   color: #f8f9fa;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 25%;
+   margin-right: 25%;
+   background-color: #33333323;
+   font-size: 25px;
+   border-radius: 5px;
+}
+.main-main .img {
+   
+   width: 150px;
+   height: 150px;
+   object-fit: cover;
+   border-radius: 50%;
+}
+
+.fin{
+  text-align: center;
+}
+.main-footer{
+  background-color: #c1cbd4;
+  margin-top: 60px;
+}
+.text-uppercase{
+  margin-top: 35px;
+}
+.imgport{
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.main-footer{
+  position: relative;
+   margin-bottom: -100px;
+}
