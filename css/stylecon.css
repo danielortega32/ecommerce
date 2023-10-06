@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #e5e5ebbb;
+  background-color: #eaeaf2;
   padding: 10px 20px;
   position: fixed;
   top: 0;
@@ -44,6 +44,9 @@
 
 #menu-toggle {
   display: none;
+}
+.navbar-toggler-icon{
+  background-image: url(/img/1486506264-hamburger-list-menu-options-bars-stack_81469.png);
 }
 
 @media (max-width: 768px) {
