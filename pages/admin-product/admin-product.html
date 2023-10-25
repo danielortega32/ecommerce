@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -147,22 +150,25 @@
       </div>
        
       <section class="ca">
-        <div class="indumen">
+     class="btn"> Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card grow">
+                <img
+                  src="img/camise.webp"
+                  class="card-img-top"
+                  alt="Imagen 4"
+                />
+                <div class="card-body">
 
         </div>
-        <div class="container">
-          <h1 class="indu grow anima">Indumentaria</h1>
-          <h2 class="anio grow">2023</h2>
-          <br>
-          <main class="main-container">
-          <div class="container-xl">
-            
-            </div>
-          </div>
+        
           </main>
-        <section id="card-container" class="card-container container-xl ">
+     
           
-        </section>
+       
           <!--  <div class="row">
             <div class="col-md-6 col-lg-3">
               <div class="card grow">
@@ -209,19 +215,7 @@
                   <p class="card-text">Diadora 2023</p>
                   <p class="card-text2">$23.000</p>
                   <a href="#" class="btn"> Ver mas..</a>
-                  <a href="#" class="btn"> Comprar</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="card grow">
-                <img
-                  src="img/camise.webp"
-                  class="card-img-top"
-                  alt="Imagen 4"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">
+                  <a href="#""card-title">
                     Camiseta de Arquero Suplente Velezana
                   </h5>
                   <br />
@@ -287,38 +281,7 @@
         </section>
         
       </section>
-      <!-- Model -->
-
-      <div class="modal" id="loginModal" tabindex="-1"  role="dialog" >
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                </div>
-                <div class="modal-body">
-                    <div class="wrapper">
-                        <form id="login" class="form-login">
-                            <h1 class="title-login">Inicia sesion</h1>
-                            <div class="div-inp">
-                                <input class="input" type="email" name="email" pattern="[A-Za-z0-9._+\-']+@[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$" minlength="5" maxlength="64" placeholder="email" required="" id="email">
-                                <label class="label" for="email">Correo</label>
-                                <i class="fa-solid fa-envelope"></i>
-                            </div>
-                            <div class="div-inp">
-                                <input class="input" type="password" name="contrasena" minlength="5" maxlength="22" placeholder="contrasena" id="contrasena">
-                                <label class="label" for="contrasena">Contraseña</label>
-                                <i class="iconPassword fa-solid fa-lock"></i>
-                            </div>
-                            <button class="btn-login" type="submit">Iniciar</button>
-                            <br>
-                             <a class="form-link" href="pages/register/register.html">Registrate</a></p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    
 
       <!-- cards two -->
      <div class="tit">
@@ -463,43 +426,7 @@
     <script src="/js/home.js"></script>
     <script src="/js/user-info.js"></script>
     <script src="/js/login.js"></script>
-     <!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+    
+
   </body>
 </html>
